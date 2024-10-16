@@ -10,3 +10,14 @@ npm start
 # Dependências
 - Express (servidor api)
 - Puppeteer (core da aplicação)
+
+# Porta da aplicação
+3333
+
+# Rota para renderizar a URL
+> post /render/single
+```
+{
+    "url" : "https://www.example.com"
+}
+```
